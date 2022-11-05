@@ -1,0 +1,414 @@
+
+body {
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-width: 320px;
+    font-family: 'Catamaran';
+    background: #E5E5E5;
+    overflow-x: hidden;
+
+
+}
+
+header{
+    display: flex;
+    max-width: 1553px;
+    justify-content: center;
+    margin: 0 auto;
+    align-content: space-between;
+    align-items: flex-end;
+
+    font-size: 25px;
+}
+
+header div{
+    display: flex;
+    width: 100%;
+    /*max-width: 1553px;*/
+
+}
+
+.content-container {
+    width: 100%;
+    /*max-width: 1553px;*/
+}
+
+.header_wrapper {
+    display: flex;
+    gap: 400px;
+}
+
+.nav-wrapper{
+    display: flex;
+    gap: 65px;
+}
+
+.nav .list{
+    display: flex;
+    gap: 28px;
+
+    margin: 0;
+    list-style: none;
+}
+
+.list-item {
+    height: 100%;
+}
+
+.list-item-link {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 4px 8px;
+    color: #163561;
+}
+
+.list-item-link.active {
+    height: 100%;
+    background-color: #99BAED;
+    color: white;
+    border-radius: 5px;
+}
+
+.list-item-link:hover {
+    background-color: #99BAED;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.control-bar {
+    display: flex;
+    align-items: center;
+    gap: 72px;
+
+    position: relative;
+    top: 27px;
+}
+
+.btn.btn-primary.btn-lg.main-button {
+    height: 76px;
+    min-width: 178px;
+
+    background: #99BAED;
+    border-radius: 20px;
+    border: 1px solid #99BAED;
+}
+
+.starter-wraper{
+    display: flex;
+    height: 821px;
+    background-image: url("../images/_12646_1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    font-family: Catamaran;
+    flex-direction: column;
+
+}
+.starter-wraper p{
+    padding-left: 188px;
+    width: 690px;
+    font-size: 25px;
+}
+.starter-wraper button{
+    margin-left: 188px;
+    width: 188px;
+    font-size: 25px;
+}
+
+h1{
+    font-size: 75px;
+    width: 900px;
+    font-weight: bold;
+    padding: 185px 0 0 188px;
+    color: #163561;
+
+}
+h1 span {
+    font-size: 75px;
+    font-weight: bold;
+    color: #FBB400;
+}
+
+.our-history{
+    background-image: url("../images/history-bg.svg");
+    height: 1000px;
+    background-repeat: no-repeat;
+}
+
+.our-history-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.history-wrap{
+    display: flex;
+    width: 968px;
+    flex-flow: row wrap;
+    align-content: space-around;
+
+}
+
+.our-history-image{
+    margin-left: 82px;
+}
+
+.our-history__title{
+    display: flex;
+    margin-left: 149px;
+    width: 526px;
+    font-weight: bold;
+    font-family: Catamaran;
+    flex-flow: row wrap;
+    gap: 35px;
+}
+
+.our-history__title-first-item  {
+    font-size: 75px;
+
+
+}
+.our-history__title-second-item{
+    color: #FBB400;
+    font-size: 75px;
+}
+
+.our-history__title-description{
+    font-size: 25px;
+    font-weight: normal;
+    width: 400px;
+    padding-top: 20px;
+}
+
+.service-main{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/service-bg.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 1200px;
+}
+
+.service-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.service-title__first-item{
+    font-weight: bold;
+    font-family: "Catamaran";
+    text-decoration: none;
+    font-size: 70px;
+}
+
+.service-title__second-item{
+    color:#FBB400;
+    font-weight: bold;
+    text-decoration:NONE;
+    font-size: 70px;
+}
+
+.service-nav .service-nav-list{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.service-nav-item{
+    background-image: url("../images/Service-item-bg.svg");
+    background-repeat: no-repeat;
+    margin: 0;
+    list-style: none;
+    width: 441px;
+    height: 533px;
+    color: #163561;
+}
+.service-nav-item.active{
+    background-image: url("../images/service-item-active.svg");
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+.service-nav-item:hover{
+    background-image: url("../images/service-item-active.svg");
+    background-repeat: no-repeat;
+    color: #ffffff;
+
+}
+
+.service-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: "Catamaran";
+    height: 533px;
+
+}
+
+.service-item-ico{
+    display: flex;
+    background-image: url("../images/service-item-ico.png");
+    background-repeat: no-repeat;
+    width: 103px;
+    height: 128px;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-item-ico .image{
+
+}
+
+.service-item-title{
+    font-weight: bold;
+    font-size: 45px;
+    align-self: center;
+
+}
+.service-item-title:hover{
+    font-weight: bold;
+    font-size: 45px;
+    align-self: center;
+    color: #ffffff;
+}
+.service-item-title.active{
+    font-weight: bold;
+    font-size: 45px;
+    align-self: center;
+}
+
+.service-item-description{
+    width: 359px;
+    font-size: 25px;
+    align-self: center;
+    text-align: center;
+}
+
+.galery-main{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/galery-bg.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 1300px;
+}
+
+.galery-title{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.galery-title__first-item{
+    color: #163561;
+    font-weight: bold;
+    font-family: "Catamaran";
+    text-decoration: none;
+    font-size: 70px;
+}
+
+.galery-title__second-item{
+    color:#FBB400;
+    font-weight: bold;
+    font-family: "Catamaran";
+    text-decoration: none;
+    font-size: 70px;
+}
+
+.galery-nav{
+    display: flex;
+    gap: 37px;
+    flex-flow: wrap;
+    width: 1450px;
+    align-self: center;
+}
+
+.galery-nav-list{
+    display: flex;
+    gap: 37px;
+    flex-flow: wrap;
+    width: 1450px;
+    align-self: center;
+}
+
+.galery-nav-item{
+    background-image: url("../images/galery-item-bg.svg");
+    background-repeat: no-repeat;
+    list-style: none;
+    width: 435px;
+    height: 435px;
+    opacity: .6;
+}
+
+.galery-nav-item:hover{
+    background-image: url("../images/galery-item-bg.svg");
+    background-repeat: no-repeat;
+    /*border: 3px solid #5296FF;*/
+    list-style: none;
+    width: 435px;
+    height: 435px;
+    opacity: 1;
+}
+
+.gallery-button{
+    margin-top: 50px;
+    align-self: center;
+}
+
+.footer-main{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/footer-bg.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 630px;
+    gap: 80px;
+}
+
+.footer-logo{
+    align-self: center;
+}
+
+.footer-copyright{
+    align-self: center;
+    color: #153461;
+    width: 526px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.footer-social{
+    display: flex;
+    width: 251px;
+    align-self: center;
+}
+
+.footer-social-list{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.footer-line{
+    width: 1362px;
+    height: 0px;
+    left: 287px;
+    top: 5243px;
+
+    border: 1px solid #99BAED;
+    align-self: center;
+}
+
