@@ -1,14 +1,80 @@
 {{ header }}
-<div id="common-home" class="container">
-  <div class="row">{{ column_left }}
-    {% if column_left and column_right %}
-    {% set class = 'col-sm-6' %}
-    {% elseif column_left or column_right %}
-    {% set class = 'col-sm-9' %}
-    {% else %}
-    {% set class = 'col-sm-12' %}
-    {% endif %}
-    <div id="content" class="{{ class }}">{{ content_top }}{{ content_bottom }}</div>
-    {{ column_right }}</div>
-</div>
-{{ footer }}
+<section class="starter-wraper">
+    <h1 style="font-size: 75px; width: 900px; font-weight: bold;"><span>Hairstyle</span> Reflects The Personality Inside
+        You</h1>
+    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking
+        at.</p>
+    <button type="button" class="btn btn-primary btn-lg main-button">Get Started</button>
+</section>
+<section class="our-history">
+    <div class="our-history-wrapper">
+        <img src="catalog/view/theme/barber/image/_13126_1.png" alt="our history" class="our-history-image">
+
+        <h2 class="our-history__title">
+            <span class="our-history__title-first-item">Our</span>
+            <span class="our-history__title-second-item">History</span>
+            <span class="our-history__title-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at.</span>
+            <span class="our-history__title-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at.</span>
+            <button type="button" class="btn btn-primary btn-lg main-button">Learn more</button>
+        </h2>
+    </div>
+</section>
+<section class="service-main">
+    <div class="service-title">
+        <h2 class="service-title__first-item">Services We</h2>
+        <h2 class="service-title__second-item"> Provide</h2>
+    </div>
+    <nav class="service-nav">
+        <ul class="service-nav-list">
+            <li class="service-nav-item active">
+                <div class="service-item">
+                    <div class="service-item-ico">
+                        <img src="catalog/view/theme/barber/image/scissors.svg">
+                    </div>
+                    <span class="service-item-title active">Hair Cut</span>
+                    <span class="service-item-description">long established fact that a reacted by the readable content of when looking at.</span>
+                </div>
+            </li>
+            <li class="service-nav-item">
+                <div class="service-item">
+                    <div class="service-item-ico">
+                        <img src="catalog/view/theme/barber/image/electric-razor.svg">
+                    </div>
+                    <span class="service-item-title">Beard Cut</span>
+                    <span class="service-item-description">long established fact that a reacted by the readable content of when looking at.</span>
+                </div>
+            </li>
+            <li class="service-nav-item">
+                <div class="service-item">
+                    <div class="service-item-ico">
+                        <img src="catalog/view/theme/barber/image/cleanser.svg">
+                    </div>
+                    <span class="service-item-title">Facial Pack</span>
+                    <span class="service-item-description">long established fact that a reacted by the readable content of when looking at.</span>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+</section>
+
+<section class="galery-main">
+    <div class="galery-title">
+        <h2 class="galery-title__first-item">Our </h2>
+        <h2 class="galery-title__second-item">Gallery</h2>
+    </div>
+    <nav class="galery-nav">
+        <ul class="galery-nav-list">
+            <li class="galery-nav-item"><img src="catalog/view/theme/barber/image/mask_group.png" alt=""></li>
+            <li class="galery-nav-item"><img src="catalog/view/theme/barber/image/mask_group_ek1.png" alt=""></li>
+            <li class="galery-nav-item"><img src="catalog/view/theme/barber/image/mask_group_ek2.png" alt=""></li>
+            <li class="galery-nav-item"><img src="catalog/view/theme/barber/image/mask_group_ek3.png" alt=""></li>
+            <li class="galery-nav-item"><img src="catalog/view/theme/barber/image/mask_group_ek4.png" alt=""></li>
+            <li class="galery-nav-item"><img src="catalog/view/theme/barber/image/mask_group_ek5.png" alt=""></li>
+        </ul>
+    </nav>
+    <button type="button" class="btn btn-primary btn-lg main-button gallery-button">View All</button>
+</section>
+
+
+ {{ footer }}

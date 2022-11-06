@@ -9,7 +9,7 @@ define('HTTPS_SERVER', 'http://opencart/');
 define('DIR_APPLICATION', 'F:/OSPanel/domains/opencart/catalog/');
 define('DIR_SYSTEM', 'F:/OSPanel/domains/opencart/system/');
 define('DIR_IMAGE', 'F:/OSPanel/domains/opencart/image/');
-define('DIR_STORAGE', DIR_SYSTEM . 'storage/');
+define('DIR_STORAGE', 'F:/OSPanel/domains/storage/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/theme/');
 define('DIR_CONFIG', DIR_SYSTEM . 'config/');
