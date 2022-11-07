@@ -529,3 +529,11 @@ h1 span {
     margin-top: 20px;
     width: 500px;
 }
+
+.address-form-main{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 20px;
+    align-items: flex-start;
+}
